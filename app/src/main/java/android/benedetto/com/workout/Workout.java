@@ -11,12 +11,12 @@ public class Workout {
     }
 
     public static final Workout[] workouts = {
-            new Workout("workout eent", "workout eent description"),
-            new Workout("workout zwee", "workout zwee description"),
-            new Workout("workout dräi", "workout dräi description"),
-            new Workout("workout veier", "workout veier description"),
-            new Workout("workout fënnef", "workout fënnef description"),
-            new Workout("workout fënnef", "workout fënnef description")
+            new Workout("workout eent", "workout eent description\nline two\nline three"),
+            new Workout("workout zwee", "workout zwee description\nline two\nline three"),
+            new Workout("workout dräi", "workout dräi description\nline two\nline three"),
+            new Workout("workout veier", "workout veier description\nline two\nline three"),
+            new Workout("workout fënnef", "workout fënnef description\nline two\nline three"),
+            new Workout("workout fënnef", "workout fënnef description\nline two\nline three")
     };
 
     // getter and setter
